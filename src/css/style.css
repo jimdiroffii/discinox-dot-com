@@ -8,8 +8,9 @@ body {
 }
 
 .content {
-  font-size: clamp(1rem, 2.5vw, 4rem);
+  font-size: clamp(3rem, 4vw, 6rem);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
